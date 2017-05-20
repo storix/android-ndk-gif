@@ -5,4 +5,5 @@ LOCAL_SRC_FILES := DataBlock.cpp BitmapIterator.cpp BitWritingBlock.cpp GifDecod
 LOCAL_LDFLAGS += -ljnigraphics
 LOCAL_CFLAGS := -D__GXX_EXPERIMENTAL_CXX0X__
 LOCAL_CPPFLAGS  := -std=c++11
+LOCAL_LDFLAGS += -latomic
 include $(BUILD_SHARED_LIBRARY)
