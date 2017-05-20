@@ -25,3 +25,17 @@ proguard/
 
 # Log Files
 *.log
+
+# Intellij
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# Desktop Services Store, on macOS it is a file that stores custom attributes of its containing folder
+.DS_Store
+
