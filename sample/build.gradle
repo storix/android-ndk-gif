@@ -16,8 +16,8 @@ repositories {
 }
 
 android {
-    compileSdkVersion 18
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
 
     sourceSets {
         main {
@@ -38,7 +38,7 @@ android {
 
     defaultConfig {
         minSdkVersion 18
-        targetSdkVersion 21
+        targetSdkVersion 26
         versionCode 1
         versionName "0.1.0"
     }
